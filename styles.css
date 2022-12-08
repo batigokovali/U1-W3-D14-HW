@@ -1,0 +1,30 @@
+#bingo-board {
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: center;
+}
+
+.bingo {
+    width: 35px;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid rgb(140, 60, 140);
+    display: inline-block;
+    margin: 2px;
+    text-align: center;
+    line-height: 35px;
+  
+}
+
+.bingo-block-highlighted {
+    width: 35px;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid rgb(140, 60, 140);
+    background-color: aqua;
+    display: inline-block;
+    margin: 2px;
+    text-align: center;
+    line-height: 35px;
+}
