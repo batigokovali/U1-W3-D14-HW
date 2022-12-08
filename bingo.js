@@ -90,6 +90,7 @@ function userBoard()
         arrayOf24[i] = numbersArray[i]
     }
     userBingoBoard = arrayOf24;
+    
     return arrayOf24;
 }
 
@@ -99,8 +100,9 @@ function userBingoCreate()
     {
         let bingoNode = document.createElement("div"); 
         bingoNode.classList.add("bingo"); 
-        bingoNode.innerText = userBingoBoard[i].innerText; 
-        document.getElementById("user-board")[i].appendChild(bingoNode)
+        bingoNode.innerText = userBingoBoard[i];
+        document.getElementById("user-board").appendChild(bingoNode)
+        console.log(document.getElementById("user-board")) 
     }
     return;
 }
